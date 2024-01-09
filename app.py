@@ -2,14 +2,13 @@
 import os
 
 import aws_cdk.pipelines
-from aws_cdk import App, Aws
+from aws_cdk import App
 from cdk_pipelines_github import AwsCredentials, GitHubWorkflow
 
 from cdk.cdk_python_pipeline.pipeline.service_stage import ServiceStage
 from cdk.cdk_python_pipeline.pipeline.setup_stage import SetupStage
 
-account = Aws.ACCOUNT_ID
-region = Aws.REGION
+account = 649037252677
 environment = os.getenv("ENVIRONMENT", "dev")
 
 app = App()
