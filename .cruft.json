@@ -1,0 +1,29 @@
+{
+  "template": "https://github.com/cdk-all-the-things/cookiecutter-cdk-python",
+  "commit": "36a3afb4fc068d954c5773bc80002ed33473505e",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "cdk_python_pipeline",
+      "service_name": "cdk_python_pipeline",
+      "email": "wilford@brimley.com",
+      "author": "Wilford Brimley",
+      "project_description": "Python CDK Application",
+      "stack_name": "cdk_python_pipeline",
+      "version": "0.0.1",
+      "python_version": "3.10.6",
+      "node_version": "18.13.0",
+      "cdk_version": "2.117.0",
+      "constructs_version": "10.3.0",
+      "git_repo_url": "cdk-all-the-things/cdk-python-pipeline",
+      "default_aws_region": "us-east-1",
+      "license": "Apache 2.0",
+      "_copy_without_render": [
+        "*.html",
+        ".github"
+      ],
+      "_template": "https://github.com/cdk-all-the-things/cookiecutter-cdk-python"
+    }
+  },
+  "directory": null
+}
