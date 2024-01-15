@@ -306,20 +306,20 @@ ujson = ["ujson (>=5.7.0)"]
 
 [[package]]
 name = "cdk-monitoring-constructs"
-version = "7.3.1"
+version = "7.3.2"
 description = "cdk-monitoring-constructs"
 optional = false
 python-versions = "~=3.8"
 files = [
-    {file = "cdk-monitoring-constructs-7.3.1.tar.gz", hash = "sha256:48c942eec4c2cd7aefa9a13c7080f4928b42ea10317d53e5cff2fb6baad2b799"},
-    {file = "cdk_monitoring_constructs-7.3.1-py3-none-any.whl", hash = "sha256:cb2f74e089bb3fbfd0c4aebb8c14920fd29bdf54c1508f9d16494e79c426f5f8"},
+    {file = "cdk-monitoring-constructs-7.3.2.tar.gz", hash = "sha256:bc3b036f1835bd9fb0a0e58e485a0a42b161c15e82c2d96e6b394101cff67829"},
+    {file = "cdk_monitoring_constructs-7.3.2-py3-none-any.whl", hash = "sha256:0dfe3635b13fc5a8fa7a7ae4da0e47226d83c418dbe95fed332d1eb4f443b617"},
 ]
 
 [package.dependencies]
 "aws-cdk.aws-redshift-alpha" = ">=2.112.0.a0,<3.0.0"
 aws-cdk-lib = ">=2.112.0,<3.0.0"
 constructs = ">=10.0.5,<11.0.0"
-jsii = ">=1.93.0,<2.0.0"
+jsii = ">=1.94.0,<2.0.0"
 publication = ">=0.0.3"
 typeguard = ">=2.13.3,<2.14.0"
 
@@ -887,13 +887,13 @@ files = [
 
 [[package]]
 name = "jsii"
-version = "1.93.0"
+version = "1.94.0"
 description = "Python client for jsii runtime"
 optional = false
 python-versions = "~=3.8"
 files = [
-    {file = "jsii-1.93.0-py3-none-any.whl", hash = "sha256:d3cba8c18f2bb4eb94aa41a202b4eb14a561a3a347ed086294a6c9d5d17c90d6"},
-    {file = "jsii-1.93.0.tar.gz", hash = "sha256:15349b329b79699c88a6041c8987a4470e6cfa544e5c1e4a126bc5be9f48a623"},
+    {file = "jsii-1.94.0-py3-none-any.whl", hash = "sha256:1105bae271ae47c27cf31c1565c5157306efed5ad9323c9a27336f962f465716"},
+    {file = "jsii-1.94.0.tar.gz", hash = "sha256:175abc356603d98f18ab6f6aa74bfeae253e4e56340aef9dc40bbb1a6a59868b"},
 ]
 
 [package.dependencies]
